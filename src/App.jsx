@@ -7,10 +7,15 @@ import Home from './Home'
 import Footer from './Component/Footer'
 import Help from './Component/Help'
 import Service from './Component/Service'
+import UiUx from './Component/Service/UiUx'
+import Frontend from './Component/Service/Frontend'
+import Backend from './Component/Service/Backend'
+import FullStack from './Component/Service/FullStack'
+import Branding from './Component/Service/Branding'
 
 export default function App() {
   return (
-    <div className='relative'>
+    <div className='relative '>
 
     
     <NavBar title='DisiBin'/>
@@ -18,7 +23,12 @@ export default function App() {
       <Route path="/" element={<Home />} />
       <Route path="/about" element={<About title='DisiBin' />} />
       <Route path="/help" element={<Help />} />
-      <Route path="/services" element={<Service />} />
+      <Route path="/services" element={<Service title='DisiBin'/>} />
+      <Route path="/ui-ux-dev" element={<UiUx/>} />
+      <Route path="/front-end-dev" element={<Frontend/>} />
+      <Route path="/back-end-dev" element={<Backend/>} />
+      <Route path="/full-stack-dev" element={<FullStack/>} />
+      <Route path="/branding" element={<Branding/>} />
       <Route path="/login" element={<LogIn title='DisiBin' />} />
     </Routes>
     <Footer title='DisiBin'/>

@@ -45,7 +45,7 @@ export default function About(props) {
         </p>
 
       </div>
-      <p className='mt-8'>Our mission is to empower businesses—big or small—to succeed onne. We beeve in honest communication, long-term partnerships, and devering measurable results. Whether you’re launching a new product, redesigning your website, or building a brand from scratch, our team is here to make it happen.</p>
+      <p className='mt-8'>Our mission is to empower businesses—big or small—to succeed onne. We believe in honest communication, long-term partnerships, and devering measurable results. Whether you’re launching a new product, redesigning your website, or building a brand from scratch, our team is here to make it happen.</p>
       <p>Let’s collaborate and bring your vision to fe with creativity, code, and clarity.</p>
 
     </div>
