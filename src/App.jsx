@@ -1,8 +1,8 @@
 import React from 'react'
 import { Routes, Route } from 'react-router-dom'
 import NavBar from './Component/NavBar'
-import About from './Component/About'
 import LogIn from './Component/LogIn'
+import About from './Component/About'
 import Home from './Home'
 import Footer from './Component/Footer'
 import Help from './Component/Help'
@@ -21,6 +21,7 @@ export default function App() {
     <NavBar title='DisiBin'/>
     <Routes>
       <Route path="/" element={<Home />} />
+      <Route path="/login" element={<LogIn title='DisiBin'/>} />
       <Route path="/about" element={<About title='DisiBin' />} />
       <Route path="/help" element={<Help />} />
       <Route path="/services" element={<Service title='DisiBin'/>} />
@@ -29,7 +30,7 @@ export default function App() {
       <Route path="/back-end-dev" element={<Backend/>} />
       <Route path="/full-stack-dev" element={<FullStack/>} />
       <Route path="/branding" element={<Branding/>} />
-      <Route path="/login" element={<LogIn title='DisiBin' />} />
+      
     </Routes>
     <Footer title='DisiBin'/>
     </div>
