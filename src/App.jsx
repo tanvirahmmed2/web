@@ -21,7 +21,7 @@ export default function App() {
     <NavBar title='DisiBin'/>
     <Routes>
       <Route path="/" element={<Home />} />
-      <Route path="/login" element={<LogIn title='DisiBin'/>} />
+      <Route path='/login' element={<LogIn title='DisiBin'/>}/>
       <Route path="/about" element={<About title='DisiBin' />} />
       <Route path="/help" element={<Help />} />
       <Route path="/services" element={<Service title='DisiBin'/>} />
