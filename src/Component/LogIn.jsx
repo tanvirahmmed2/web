@@ -1,6 +1,6 @@
 import React, { useState } from 'react'
 
-export default function Login(props) {
+export default function LogIn(props) {
   let [Signin, setSignin] = useState("flex");
   let [Signup, setSignup] = useState("hidden");
 
